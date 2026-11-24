@@ -1,5 +1,4 @@
-export const host = process.env.REACT_APP_API_URL || "http://localhost:5000";
-export const loginRoute = `${host}/api/auth/login`;
+export const host = "https://mern-chat-app-h5n5.onrender.com";
 export const registerRoute = `${host}/api/auth/register`;
 export const logoutRoute = `${host}/api/auth/logout`;
 export const allUsersRoute = `${host}/api/auth/allusers`;
